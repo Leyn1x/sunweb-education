@@ -8,15 +8,25 @@
 </head>
 <body>
     <header class="header">
-        <nav></nav>
-            <img src="./assets/header-logo.svg" alt="logo" class="header__logo">
+            <div class="header__wrapper">
+                <img src="./assets/header-logo.svg" alt="logo" class="header__logo">
+                <h1 class="header__label">Евробетон</h1>
             <button class="header__btn-call-me">ПЕРЕЗВОНИТЕ МНЕ</button>
             <button class="header__button-call-us">
-                <img src="./assets/header-phone.svg" alt="телефон" class="header__img-call-us">
+                    <p class="call-us__phone">+7 (3452) 500-301</p>
+                    <p class="call-us__text">многоканальный номер в Тюмени</p>
             </button>
             <button class="header__burger-button">
                 <img src="./assets/burger-button.svg" alt="Кнопка бургер">
             </button>
+            </div>
+            <nav class="nav">
+                <a class="nav__link">Цены</a>
+                <a class="nav__link">Галерея</a>
+                <a class="nav__link">О компании и бетоне</a>
+                <a class="nav__link">контакты</a>
+                <a class="nav__link">статьи</a>
+            </nav>
     </header>
     <main class="main">
         <section class="main-section">
@@ -49,169 +59,175 @@
                     </ul>
                 </div>
             </div>
-            <div class="cards">
-                <h2 class="cards__title">ОФИС</h2>
-                <div class="cards__item">
-                    <div class="cards__img">
-                        <img src="./assets/man.jpg" alt="Генеральный директор">
-                    </div>
-                    <div class="card__desc">
-                        <h2 class="card__name">
-                            Маркин
-                        </h2>
-                        <h2 class="card__name">
-                            Эдуард
-                        </h2>
-                        <p class="card__post">
-                            Генеральный директор
-                        </p>
-                    </div>
-                </div>
-                <div class="cards__item">
-                    <div class="cards__img">
-                        <img src="./assets/man1.jpg" alt="Главный бухгалтер">
-                    </div>
-                    <div class="card__desc">
-                        <h2 class="card__name">
-                            Человечкова
-                        </h2>
-                        <h2 class="card__name">
-                            Ирина
-                        </h2>
-                        <p class="card__post">
-                            Главный бухгалтер
-                        </p>
-                    </div>
-                </div>
-                <div class="cards__item">
-                    <div class="cards__img">
-                        <img src="./assets/man2.jpg" alt="Бухгалтер">
-                    </div>
-                    <div class="card__desc">
-                        <h2 class="card__name">
-                            Сычева
-                        </h2>
-                        <h2 class="card__name">
-                            Анастасия
-                        </h2>
-                        <p class="card__post">
-                            Бухгалтер
-                        </p>
-                    </div>
-                </div>
-                <div class="cards__item">
-                    <div class="cards__img">
-                        <img src="./assets/man3.jpg" alt="Менеджер">
-                    </div>
-                    <div class="card__desc">
-                        <h2 class="card__name">
-                            Салмин
-                        </h2>
-                        <h2 class="card__name">
-                            Николай
-                        </h2>
-                        <p class="card__post">
-                            Менеджер
-                        </p>
-                    </div>
-                </div>
-                <div class="cards__item">
-                    <div class="cards__img">
-                        <img src="./assets/man4.jpg" alt="Менеджер">
-                    </div>
-                    <div class="card__desc">
-                        <h2 class="card__name">
-                            Алексеева
-                        </h2>
-                        <h2 class="card__name">
-                            Ирина
-                        </h2>
-                        <p class="card__post">
-                            Менеджер
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="cards">
-                <h2 class="cards__title">ПРОИЗВОДСТВО</h2>
-                <div class="cards__item">
-                    <div class="cards__img">
-                        <img src="./assets/man.jpg" alt="Генеральный директор">
-                    </div>
-                    <div class="card__desc">
-                        <h2 class="card__name">
-                            Маркин
-                        </h2>
-                        <h2 class="card__name">
-                            Эдуард
-                        </h2>
-                        <p class="card__post">
-                            Генеральный директор
-                        </p>
+            <div class="staff">
+                <div class="cards">
+                    <h2 class="cards__title">ОФИС</h2>
+                    <div class="cards__collection">
+                        <div class="cards__item">
+                            <div class="cards__img">
+                                <img src="./assets/man.jpg" alt="Генеральный директор">
+                            </div>
+                            <div class="card__desc">
+                                <h2 class="card__name">
+                                    Маркин
+                                </h2>
+                                <h2 class="card__name">
+                                    Эдуард
+                                </h2>
+                                <p class="card__post">
+                                    Генеральный директор
+                                </p>
+                            </div>
+                        </div>
+                        <div class="cards__item">
+                            <div class="cards__img">
+                                <img src="./assets/man1.jpg" alt="Главный бухгалтер">
+                            </div>
+                            <div class="card__desc">
+                                <h2 class="card__name">
+                                    Человечкова
+                                </h2>
+                                <h2 class="card__name">
+                                    Ирина
+                                </h2>
+                                <p class="card__post">
+                                    Главный бухгалтер
+                                </p>
+                            </div>
+                        </div>
+                        <div class="cards__item">
+                            <div class="cards__img">
+                                <img src="./assets/man2.jpg" alt="Бухгалтер">
+                            </div>
+                            <div class="card__desc">
+                                <h2 class="card__name">
+                                    Сычева
+                                </h2>
+                                <h2 class="card__name">
+                                    Анастасия
+                                </h2>
+                                <p class="card__post">
+                                    Бухгалтер
+                                </p>
+                            </div>
+                        </div>
+                        <div class="cards__item">
+                            <div class="cards__img">
+                                <img src="./assets/man3.jpg" alt="Менеджер">
+                            </div>
+                            <div class="card__desc">
+                                <h2 class="card__name">
+                                    Салмин
+                                </h2>
+                                <h2 class="card__name">
+                                    Николай
+                                </h2>
+                                <p class="card__post">
+                                    Менеджер
+                                </p>
+                            </div>
+                        </div>
+                        <div class="cards__item">
+                            <div class="cards__img">
+                                <img src="./assets/man4.jpg" alt="Менеджер">
+                            </div>
+                            <div class="card__desc">
+                                <h2 class="card__name">
+                                    Алексеева
+                                </h2>
+                                <h2 class="card__name">
+                                    Ирина
+                                </h2>
+                                <p class="card__post">
+                                    Менеджер
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="cards__item">
-                    <div class="cards__img">
-                        <img src="./assets/man1.jpg" alt="Главный бухгалтер">
-                    </div>
-                    <div class="card__desc">
-                        <h2 class="card__name">
-                            Человечкова
-                        </h2>
-                        <h2 class="card__name">
-                            Ирина
-                        </h2>
-                        <p class="card__post">
-                            Главный бухгалтер
-                        </p>
-                    </div>
-                </div>
-                <div class="cards__item">
-                    <div class="cards__img">
-                        <img src="./assets/man2.jpg" alt="Бухгалтер">
-                    </div>
-                    <div class="card__desc">
-                        <h2 class="card__name">
-                            Сычева
-                        </h2>
-                        <h2 class="card__name">
-                            Анастасия
-                        </h2>
-                        <p class="card__post">
-                            Бухгалтер
-                        </p>
-                    </div>
-                </div>
-                <div class="cards__item">
-                    <div class="cards__img">
-                        <img src="./assets/man3.jpg" alt="Менеджер">
-                    </div>
-                    <div class="card__desc">
-                        <h2 class="card__name">
-                            Салмин
-                        </h2>
-                        <h2 class="card__name">
-                            Николай
-                        </h2>
-                        <p class="card__post">
-                            Менеджер
-                        </p>
-                    </div>
-                </div>
-                <div class="cards__item">
-                    <div class="cards__img">
-                        <img src="./assets/man4.jpg" alt="Менеджер">
-                    </div>
-                    <div class="card__desc">
-                        <h2 class="card__name">
-                            Алексеева
-                        </h2>
-                        <h2 class="card__name">
-                            Ирина
-                        </h2>
-                        <p class="card__post">
-                            Менеджер
-                        </p>
+                <div class="cards">
+                    <h2 class="cards__title">ПРОИЗВОДСТВО</h2>
+                    <div class="cards__collection">
+                        <div class="cards__item">
+                            <div class="cards__img">
+                                <img src="./assets/man.jpg" alt="Генеральный директор">
+                            </div>
+                            <div class="card__desc">
+                                <h2 class="card__name">
+                                    Маркин
+                                </h2>
+                                <h2 class="card__name">
+                                    Эдуард
+                                </h2>
+                                <p class="card__post">
+                                    Генеральный директор
+                                </p>
+                            </div>
+                        </div>
+                        <div class="cards__item">
+                            <div class="cards__img">
+                                <img src="./assets/man1.jpg" alt="Главный бухгалтер">
+                            </div>
+                            <div class="card__desc">
+                                <h2 class="card__name">
+                                    Человечкова
+                                </h2>
+                                <h2 class="card__name">
+                                    Ирина
+                                </h2>
+                                <p class="card__post">
+                                    Главный бухгалтер
+                                </p>
+                            </div>
+                        </div>
+                        <div class="cards__item">
+                            <div class="cards__img">
+                                <img src="./assets/man2.jpg" alt="Бухгалтер">
+                            </div>
+                            <div class="card__desc">
+                                <h2 class="card__name">
+                                    Сычева
+                                </h2>
+                                <h2 class="card__name">
+                                    Анастасия
+                                </h2>
+                                <p class="card__post">
+                                    Бухгалтер
+                                </p>
+                            </div>
+                        </div>
+                        <div class="cards__item">
+                            <div class="cards__img">
+                                <img src="./assets/man3.jpg" alt="Менеджер">
+                            </div>
+                            <div class="card__desc">
+                                <h2 class="card__name">
+                                    Салмин
+                                </h2>
+                                <h2 class="card__name">
+                                    Николай
+                                </h2>
+                                <p class="card__post">
+                                    Менеджер
+                                </p>
+                            </div>
+                        </div>
+                        <div class="cards__item">
+                            <div class="cards__img">
+                                <img src="./assets/man4.jpg" alt="Менеджер">
+                            </div>
+                            <div class="card__desc">
+                                <h2 class="card__name">
+                                    Алексеева
+                                </h2>
+                                <h2 class="card__name">
+                                    Ирина
+                                </h2>
+                                <p class="card__post">
+                                    Менеджер
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -251,8 +267,8 @@
             <div class="form__inputs">
                 <input class="form__input" type="text" placeholder="Имя">
                 <input class="form__input" type="phone" placeholder="+7 (___)-___-__-__*">
-                <input class="form__input" type="text" placeholder="Комментарий">
             </div>
+            <textarea class="form__textarea" placeholder="Комментарий"></textarea>
             <button class="form__submit">Отправить</button>
             <div class="form__policy">
                 <p class="policy__text">

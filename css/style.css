@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: transparent;
+}
+
+/* Оформление header */
+
+.header-wrapper {
+    background: url("../images/header-background.jpg") no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 26px 140px;
+    gap: 48px;
+
+    background: rgba(26, 26, 26, 0.65);
+}
+
+.header__logo {
+    display: flex;
+    flex-direction: column;
+}
+
+.header__label {
+    color: rgba(246, 246, 246, 0.50);
+
+/* Logo Text */
+    font-family: "Rubik", sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.nav {
+    display: flex;
+    gap: 30px;
+}
+
+.header__nav {
+    margin-right: auto;
+}
+
+.nav__link {
+    text-decoration: none;
+
+    color: #FFF;
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.header__contacts {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.contacts__link {
+    color: #FFF;
+
+    /* Contact Text */
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+
+    text-decoration: none;
+}
+
+.contacts__submit-button {
+    width: 160px;
+    height: 32px;
+
+    cursor: pointer;
+    transition: background-color 300ms, color 300ms, border 300ms;
+
+    border: 1px solid #F79C1B;
+    background: transparent;
+    color: #F79C1B;
+
+    font-family: "Rubik", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+}

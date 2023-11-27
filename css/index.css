@@ -13,6 +13,7 @@
         url('../fonts/RFDewi-Bold.eot') format('eot');
     font-weight: 700;
     font-style: normal;
+    font-display: swap;
   }
   @font-face {
      font-family: 'RF Dewi';
@@ -22,6 +23,7 @@
         url('../fonts/RFDewi-Regular.eot') format('eot');
     font-weight: 400;
     font-style: normal;
+    font-display: swap;
   }
   @font-face {
     font-family: 'RF Dewi Expanded';
@@ -31,6 +33,7 @@
         url('../fonts/RFDewiExpanded-Black.eot') format('eot');
     font-weight: 800;
     font-style: normal; 
+    font-display: swap;
   }
 
 .header {
@@ -632,6 +635,6 @@
     }
 
     .icons__a:hover .svg-item{
-        fill: var(--Red, #E63E35);;
+        fill: var(--Red, #E63E35);
     }
 }

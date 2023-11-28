@@ -1,0 +1,658 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: transparent;
+}
+
+/* Оформление header */
+
+.header-wrapper {
+    background-image: url("../images/header-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.header {
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 26px 140px;
+    gap: 48px;
+
+    background: rgba(26, 26, 26, 0.65);
+
+    position: absolute;
+    top: 0;
+}
+
+.header__logo {
+    display: flex;
+    flex-direction: column;
+}
+
+.header__label {
+    color: rgba(246, 246, 246, 0.50);
+
+/* Logo Text */
+    font-family: "Rubik", sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.nav {
+    display: flex;
+    gap: 30px;
+}
+
+.header__nav {
+    margin-right: auto;
+}
+
+.nav__link {
+    text-decoration: none;
+
+    color: #FFF;
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.header__contacts {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.contacts__link {
+    color: #FFF;
+
+    /* Contact Text */
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+
+    text-decoration: none;
+}
+
+.contacts__submit-button {
+    width: 160px;
+    height: 32px;
+
+    cursor: pointer;
+    transition: background-color 300ms, color 300ms, border 300ms;
+
+    border: 1px solid #F79C1B;
+    background: transparent;
+    color: #F79C1B;
+
+    font-family: "Rubik", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.header-wrapper__section {
+    background: rgba(26, 26, 26, 0.65);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner__container {
+    padding: 32px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    width: 760px;
+    gap: 10px;
+}
+
+.banner__title {
+    color: #FFF;
+    text-align: center;
+    font-family: "Rubik", sans-serif;
+    font-size: 46px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.banner__desc {
+    color: #FFF;
+    text-align: center;
+    
+    /* Subtitle 1 */
+    font-family: "Rubik", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.banner__desc_bold {
+    /* Subtitle 2 */
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.banner__btn {
+    width: 240px;
+    height: 50px;
+    
+
+    background: #F79C1B;
+
+    color: #F6F6F6;
+    text-align: center;
+    
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.32px;
+
+    border: none;
+
+    cursor: pointer;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    
+    padding-top: 160px;
+}
+
+.kitchen {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 88px;
+    background-color: transparent;
+}
+
+.kitchen-types {
+    padding: 0 140px 0 140px;
+}
+
+.kitchen-styles {
+    padding-top: 80px;
+    padding-bottom: 160px;
+}
+
+.kitchen__title {
+    color: #1A1A1A;
+    text-align: center;
+    
+    font-family: "Rubik", sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.kitchen__container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.kitchen__container_space-between {
+    justify-content: space-between
+}
+
+.kitchen__text-containter {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;    
+}
+
+.kitchen__subtitle {
+    color: #1A1A1A;
+
+    /* H4 */
+    font-family: "Rubik", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.kitchen__desc {
+    color: #1A1A1A;
+
+    /* Text */
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.kitchen__img {
+    width: 100%;
+    height: 100%;
+}
+
+.kitchen__img_big {
+    width: 560px;
+    height: 340px;
+}
+
+.kitchen__item {
+    width: 360px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.kitchen__item_big {
+    width: 560px;
+    height: 340px;
+}
+
+.form-section {
+    display: flex;
+    background: #EBEBEB;
+    padding: 160px 316px;
+    justify-content: center;
+    gap: 32px;
+}
+
+.main__form {
+    margin: 120px 0;
+}
+
+.form-section__text-wrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 18px;
+}
+
+.form-section__container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.form-section__title {
+    color: #1A1A1A;
+
+    /* H2 */
+    font-family: "Rubik", sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.form-section__desc {
+    color: #1A1A1A;
+    text-align: center;
+    
+    /* Text Form */
+    font-family: "Rubik", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.form-section__form {
+    display: flex;
+    gap: 15px;
+}
+
+.form__input {
+    width: 260px;
+    height: 50px;
+
+    color: rgba(26, 26, 26, 0.50);
+    border: 1px solid #F79C1B;
+
+    /* Button Input */
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+
+    padding-left: 30px;
+    outline: none;
+}
+
+.form__submit-btn {
+    width: 260px;
+    height: 50px;
+
+    cursor: pointer;
+    transition: background-color 300ms, color 300ms, border 300ms;
+    border: none;
+    background-color: #F79C1B;;
+    color: #F6F6F6;
+
+
+
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.about-kitchen {
+    width: 100%;
+    display: flex;
+    margin-top: 160px;
+}
+
+.about-kitchen__title {
+    color: #1A1A1A;
+    
+    /* H2 */
+    font-family: "Rubik", sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.about-kitchen__subtitle {
+    color: #1A1A1A;
+
+    /* Text */
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.about-kitchen__button {
+    width: 230px;
+    height: 50px;
+    background-color: #F79C1B;
+    border: none;
+
+    color: #F6F6F6;
+    text-align: center;
+    
+    /* Button */
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px; /* 200% */
+    letter-spacing: 0.32px;
+}
+
+.about-kitchen__image-wrapper {
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.about-kitchen__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about-kitchen__text {
+    width: 50%;
+
+    background-color: #EBEBEB;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    gap: 40px;
+    padding: 0 180px 180px 180px;
+}
+
+.about-kitchen__text-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.about-kitchen_margin0 {
+    margin: 0;
+}
+
+.footer {
+    padding: 160px 290px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 80px;
+}
+
+.footer__card {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.footer__desc {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.footer__budget {
+    display: flex;
+    flex-direction: row;
+    gap: 222px;
+}
+
+.footer__title {
+    color: #1A1A1A;
+    text-align: center;
+    
+    /* H2 */
+    font-family: "Rubik", sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.footer__label {
+    color: #1A1A1A;
+
+    /* H3 */
+    font-family: "Rubik", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.footer__text {
+    color: #1A1A1A;
+
+    /* Text */
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.nav__link:hover {
+    text-shadow: 0 0 0.65px #fff, 0 0 0.65px #fff;
+    text-decoration: underline;
+    text-decoration-color: initial;
+  }
+
+.contacts__link:hover {
+    transition: color 300ms;
+}
+
+.contacts__link:hover {
+    color: #F79C1B;
+  }
+  
+
+.button:hover {
+    background-color: #F79C1B;
+    transition: color 0.5ms;
+    color: #fff;
+ } 
+
+.header__burger-icon {
+    display: none;
+}
+
+@media (max-width: 1024px) {
+
+    .header__contacts, .nav {
+        display: none;
+    }
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+        background: none;
+        padding: 13px 10px;
+    }
+
+    .banner {
+        background-color: transparent;
+    }
+
+    .banner__container {
+        width: initial;
+        background-color: transparent;
+    }
+
+    .header__burger-icon {
+        display: block;
+    }
+    .footer {
+        padding: 60px 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 80px;
+        text-align: center;
+    }
+
+    .footer__budget {
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+    }
+
+    .footer__card {
+        align-items: center;
+    }
+
+    .footer__title {
+        color: #1A1A1A;
+        text-align: center;
+        font-family: "Rubik", sans-serif;
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .kitchen__item {
+        width: 300px;
+    }
+
+    .form-section__form {
+        flex-direction: column;
+    }
+    
+    .form-section {
+        padding: 60px 10px;
+    }
+
+    .form-section__container {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .kitchen__img_big {
+        width: 300px;
+        height: 192px;
+    }
+
+    .banner__title {
+        color: #F6F6F6;
+        text-align: center;
+        font-family: "Rubik", sans-serif;
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .banner__desc {
+        color: #F6F6F6;
+        text-align: center;
+        font-family: "Rubik", sans-serif;
+        font-size: 12px;
+        font-weight: 300;
+    }
+    .banner__btn {
+        width: 200px;
+        height: 40px;
+    }
+    .header-wrapper {
+        box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.65);
+        height: 428px;
+    }
+    .header-wrapper__section {
+        width: 100%;
+    }
+    
+    .about-kitchen {
+        position: relative;
+    }
+
+    .about-kitchen__image-wrapper {
+        position: absolute;
+        z-index: 1;
+        width: 100%;
+        height: 100%;
+    }
+
+    .about-kitchen__text {
+        padding: 60px 10px;
+        z-index: 2;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.75);
+        align-items: center;
+    }
+
+    .about-kitchen__text_white {
+        background: rgba(255, 255, 255, 0.90);
+    }
+
+    .about-kitchen__title {
+        text-align: center;
+        color: #1A1A1A;
+    }
+
+    .about-kitchen__text-wrapper {
+        text-align: center;
+    }
+
+    .about-kitchen__subtitle {
+        color: #F6F6F6;
+    }
+
+    .kitchen__container {
+        justify-content: center;
+    }
+
+    .about-kitchen__title {
+        color: #F6F6F6;
+    }
+
+    .about-kitchen__title_black, .about-kitchen__subtitle_black {
+        color: #1A1A1A;
+    }
+
+    .about-kitchen__title_black {
+        font-size: 18px;
+    }
+
+    .about-kitchen__subtitle_black {
+        font-size: 12px;
+    }
+}
